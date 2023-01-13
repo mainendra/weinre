@@ -1,0 +1,25 @@
+{
+  "name": "weinre",
+  "version": "0.0.1",
+  "description": "remote debug",
+  "main": "index.js",
+  "scripts": {
+    "start": "weinre --httpPort $PORT --boundHost -all-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mainendra/weinre.git"
+  },
+  "keywords": [
+    "weinre"
+  ],
+  "author": "Mainendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mainendra/weinre/issues"
+  },
+  "homepage": "https://github.com/mainendra/weinre#readme",
+  "dependencies": {
+    "weinre": "^3.0.0"
+  }
+}
